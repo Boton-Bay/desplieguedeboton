@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boton</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<html>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+
+  <script src="js/script.js"></script>
+
+ <body>
+  <div class="app-container">
+   <div class="header">
+    <img alt="SSC_logo" height="100" src="media/logo sin fondo.png" width="100" />
+    <img src="media/escudo-sin-fondo_mesa-de-trabajo-1.webp" alt="Cole_SSC" height="100" width="100" style="float:right; margin-top:-45px;"">
+    <h1>
+     BOTÓN DE PÁNICO
+    </h1>
+    <p>
+     MIS ALARMAS
+    </p>
+   </div>
+   <div class="grid">
+    <div class="bg-yellow-500" onclick="handleClick('sos')">
+     <i class="fas fa-bell">
+     </i>
+     <span>
+      SOS
+     </span>
+    </div>
+    <div class="bg-orange-500" onclick="handleClick('incendio')">
+     <i class="fas fa-fire">
+     </i>
+     <span>
+      INCENDIO
+     </span>
+    </div>
+    <div class="bg-green-600" onclick="handleClick('asistencia')">
+     <i class="fas fa-user">
+     </i>
+     <span>
+      ASISTENCIA
+     </span>
+    </div>
+    <div class="bg-purple-800" onclick="handleClick('enCamino')">
+     <i class="fas fa-stopwatch">
+     </i>
+     <span>
+      EN CAMINO
+     </span>
+    </div>
+    <div class="bg-blue-700" onclick="handleClick('estoyAqui')">
+     <i class="fas fa-map-marker-alt">
+     </i>
+     <span>
+      ESTOY AQUÍ
+     </span>
+    </div>
+    <div class="bg-red-600" onclick="handleClick('Emergencia')">
+        <i class="fas fa-phone">
+        </i>
+        <span>
+         EMERGENCIA
+        </span>
+       </div>
+   </div>
+   <div class="footer">
+    <i class="fas fa-home" onclick="redirectTo('https://ctpdeaserridiurno.com/')">
+    </i>
+    <i class="fas fa-car" onclick="redirectTo('car.html')">
+    </i>
+    <i class="fas fa-users" onclick="redirectTo('form.html')">
+    </i>
+    <i class="fas fa-bullhorn" onclick="redirectTo('bullhorn.html')">
+    </i>
+   </div>
+  </div>
+ </body>
+</html>

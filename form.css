@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Contenedor del formulario */
+  .formulario {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 40px auto;
+  }
+  
+  /* Título del formulario */
+  .formulario h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d3572a;
+    font-weight: bold;
+  }
+  
+  /* Estilos de los campos de entrada */
+  .formulario input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+  }
+  
+  .formulario input:focus {
+    border-bottom-color: #e77423;
+  }
+  
+  /* Estilos del botón de envío */
+  .formulario button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario button:hover {
+    background-color: #da671f;
+  }
+  
+  /* Animación de entrada */
+  .formulario {
+    animation: entrada 1s ease;
+  }
+  
+  @keyframes entrada {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Iconos de éxito */
+  .formulario .exito {
+    color: #2ecc71;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .formulario .exito i {
+    margin-right: 10px;
+  }
+  
+  /* Navegación */
+  .navegacion {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 40px auto;
+  }
+  
+  .boton-navegacion {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-navegacion:hover {
+    background-color: #d85d11;
+  }
+  
+  .boton-navegacion i {
+    font-size: 24px;
+  }
